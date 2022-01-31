@@ -1,0 +1,39 @@
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.title {
+    h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.items {
+
+    padding: 15px;
+
+    background-color: #785fb7;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: justify;
+
+        p {
+            span {
+                text-align: center;
+            }
+        }
+       
+    }
+
+}
